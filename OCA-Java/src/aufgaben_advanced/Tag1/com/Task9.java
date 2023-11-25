@@ -1,4 +1,4 @@
-package datentypen.aufgaben.com;
+package aufgaben_advanced.Tag1.com;
 
 public class Task9 {
 
@@ -21,5 +21,4 @@ public class Task9 {
 			System.out.println(s);
 		}
 	}
-
 }

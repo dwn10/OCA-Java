@@ -1,4 +1,4 @@
-package datentypen.aufgaben.com;
+package aufgaben_advanced.Tag1.com;
 
 public class Task8 {
 
@@ -16,19 +16,21 @@ public class Task8 {
 
 		// l-mal "Welt" auf der Konsole ausgeben
 		for (int i = 0; i < l; i++) {
-			System.out.println("Welt");
+			System.out.println("\nWelt");
 		}
 
 		// e) Werte von g und l auf der Konsole ausgeben
-		System.out.println("Wert von g: " + g);
-		System.out.println("Wert von l: " + l);
+		System.out.println("\n**************");
+		System.out.println("\nWert von g: " + g);
+		System.out.println("\nWert von l: " + l);
+		System.out.println("\n**************");
 	}
 
 	// c) Funktion, die im Main aufgerufen werden kann und g-mal "Hallo" auf der
 	// Konsole ausgibt
 	private static void printHallo(int count) {
 		for (int i = 0; i < count; i++) {
-			System.out.println("Hallo");
+			System.out.println("\nHallo");
 		}
 	}
 

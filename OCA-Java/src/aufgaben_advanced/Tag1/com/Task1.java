@@ -1,4 +1,4 @@
-package datentypen.aufgaben.com;
+package aufgaben_advanced.Tag1.com;
 
 public class Task1 {
 
@@ -8,7 +8,10 @@ public class Task1 {
 		int b = a / 10;
 		int c = b / 10;
 		int d = c / 10;
+
+		System.out.println("\n******************");
 		System.out.println(d);
+		System.out.println("******************");
 	}
 
 }

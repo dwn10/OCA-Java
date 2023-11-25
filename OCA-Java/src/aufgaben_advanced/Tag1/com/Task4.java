@@ -1,4 +1,4 @@
-package datentypen.aufgaben.com;
+package aufgaben_advanced.Tag1.com;
 
 import java.util.Random;
 
@@ -27,7 +27,7 @@ public class Task4 {
 			}
 		}
 
-		System.out.println("Zahlen in aufsteigender Reihenfolge:");
+		System.out.println("\nZahlen in aufsteigender Reihenfolge:\n");
 		for (int number : numbers) {
 			System.out.println(number);
 		}
