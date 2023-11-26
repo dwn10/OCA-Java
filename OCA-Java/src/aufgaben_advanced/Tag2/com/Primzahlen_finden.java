@@ -1,6 +1,6 @@
 package aufgaben_advanced.Tag2.com;
 
-public class Task5 {
+public class Primzahlen_finden {
     public static void main(String[] args) {
 
         // Variablen initialisieren

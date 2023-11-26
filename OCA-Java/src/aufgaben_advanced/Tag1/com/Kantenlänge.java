@@ -1,6 +1,6 @@
 package aufgaben_advanced.Tag1.com;
 
-public class Task5 {
+public class Kantenlänge {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

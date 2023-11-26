@@ -1,6 +1,6 @@
 package aufgaben_advanced.Tag3.com;
 
-public class Task3 {
+public class Monat_tage {
     public static void main(String[] args) {
 
         // Variablen initialisieren

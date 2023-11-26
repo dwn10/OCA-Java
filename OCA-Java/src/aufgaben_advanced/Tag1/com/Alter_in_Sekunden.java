@@ -2,7 +2,7 @@ package aufgaben_advanced.Tag1.com;
 
 import java.util.Scanner;
 
-public class Task11 {
+public class Alter_in_Sekunden {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

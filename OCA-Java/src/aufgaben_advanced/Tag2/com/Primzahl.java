@@ -1,6 +1,6 @@
 package aufgaben_advanced.Tag2.com;
 
-public class Task3 {
+public class Primzahl {
     public static void main(String[] args) {
 
         // Variablen initialisieren

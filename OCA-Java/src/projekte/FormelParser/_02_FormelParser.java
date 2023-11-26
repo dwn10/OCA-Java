@@ -1,4 +1,6 @@
-package projekte.FormelParser.com;
+package projekte.FormelParser;
+
+import java.util.Stack;
 
 public class _02_FormelParser {
 

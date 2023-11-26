@@ -1,6 +1,6 @@
 package aufgaben_advanced.Tag2.com;
 
-public class Task1 {
+public class Taschenrechner {
     public static void main(String[] args) {
 
         // Variablen initialisieren

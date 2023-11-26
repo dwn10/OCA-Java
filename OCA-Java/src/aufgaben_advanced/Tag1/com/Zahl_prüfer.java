@@ -1,6 +1,6 @@
 package aufgaben_advanced.Tag1.com;
 
-public class Task10 {
+public class Zahl_prüfer {
     public static void main(String[] args) {
 
         // Zahl vom Benutzer abfragen

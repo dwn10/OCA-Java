@@ -1,6 +1,6 @@
 package aufgaben_advanced.Tag1.com;
 
-public class Task7 {
+public class Ziffernfolge {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String nullVar = "0";

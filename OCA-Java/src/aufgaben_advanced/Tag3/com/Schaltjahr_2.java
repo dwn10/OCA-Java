@@ -2,7 +2,7 @@ package aufgaben_advanced.Tag3.com;
 
 import java.util.Scanner;
 
-public class Task4 {
+public class Schaltjahr_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Bitte geben Sie eine Jahreszahl ein:");

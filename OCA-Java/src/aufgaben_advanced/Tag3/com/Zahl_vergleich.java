@@ -2,7 +2,7 @@ package aufgaben_advanced.Tag3.com;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Zahl_vergleich {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // Variablen initialisieren

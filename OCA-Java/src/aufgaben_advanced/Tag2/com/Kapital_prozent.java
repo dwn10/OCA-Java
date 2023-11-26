@@ -1,6 +1,6 @@
 package aufgaben_advanced.Tag2.com;
 
-public class Task2 {
+public class Kapital_prozent {
     public static void main(String[] args) {
 
         // Variablen initialisieren

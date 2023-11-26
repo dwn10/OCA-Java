@@ -1,4 +1,4 @@
-package projekte.FormelParser.com;
+package projekte.FormelParser;
 
 public class _01_FormelParser {
     public static void main(String[] args) {
