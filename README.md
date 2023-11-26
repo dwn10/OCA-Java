@@ -1,10 +1,12 @@
 # Java Oracle Certification SE 8
 
-## !!!
-
 <p align='left'>
-<img src="https://media2.giphy.com/media/CuuSHzuc0O166MRfjt/giphy.gif?cid=ecf05e47q9eig9sgn0xl7yw8ho6wvm01vn4z9va5bo037bve&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="280" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></img></p>
+<img src="https://media.giphy.com/media/mEhPCIDM2bTrl0XKTG/giphy.gif" width="280" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></img></p>
 <p align="left">
+
+Oracle certifications allow students to demonstrate their technical skills at a professional level, 
+earning them a recognized distinction in the information technology industry. 
+his distinction gives them a competitive advantage in their professional lives.
 
 ## `Info`
 
@@ -22,24 +24,12 @@
 - The exceptions
 - The packages
 - Input and output flows
+- Projects
 - etc...
 
 
-## Credits:
-
-**!**
+## Extra:
 
 ```bash
-  Darwin Paz 
+  OCA Java
 ```
-
-## PS:
-Bla bla bla `Projekt`, 
-
-```http
-  Abgabetermin:
-```
-
-| Stadt: | Datum:     | Bis:                       |
-| :-------- | :------- | :-------------------------------- |
-| `Darmstadt`      | `Do - 28.09.2023` | **16:30 Uhr**  |
