@@ -23,6 +23,7 @@ public class Sterne1 {
         Scanner input = new Scanner(System.in);
         System.out.println("-- Sternbilder --");
         System.out.println("bitte Ganzzahl eingeben: ");
+        System.out.println("\n*********** Task 1 **********");
         int zahl = input.nextInt();
 
         // Die äußere Schleife iteriert über die Anzahl der Zeilen,
@@ -35,7 +36,7 @@ public class Sterne1 {
 
                 // In jeder Iteration der inneren Schleife wird ein Stern
                 // ausgegeben.
-                System.out.print("*");
+                System.out.print("* ");
             }
 
             // Am Ende jeder Iteration der äußeren Schleife wird
