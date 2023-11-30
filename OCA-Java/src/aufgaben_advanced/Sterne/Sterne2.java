@@ -1,5 +1,13 @@
 package aufgaben_advanced.Sterne;
 
+/*  * * * * * * *
+    . . . . . . .
+    . . . . . . .
+    . . . . . . .
+    . . . . . . .
+    . . . . . . .
+    * * * * * * *  */
+
 import java.util.Scanner;
 
 public class Sterne2 {
@@ -21,11 +29,11 @@ public class Sterne2 {
                 // In der ersten und letzten Iteration der inneren Schleife
                 // wird ein Stern ausgegeben.
                 if (i == 0 || i == zahl - 1) {
-                    System.out.print("*");
+                    System.out.print("* ");
                 } else {
                     // In allen anderen Iterationen der inneren Schleife
                     // wird ein Leerzeichen ausgegeben.
-                    System.out.print(" ");
+                    System.out.print(". ");
                 }
             }
 

@@ -1,5 +1,13 @@
 package aufgaben_advanced.Sterne;
 
+/*  * . . . . . .
+    . * . . . . .
+    . . * . . . .
+    . . . * . . .
+    . . . . * . .
+    . . . . . * .
+    . . . . . . *  */
+
 import java.util.Scanner;
 
 public class Sterne3 {
@@ -22,11 +30,11 @@ public class Sterne3 {
                 // ausgegeben, wenn die Zeilennummer und die Spaltennummer
                 // gleich sind.
                 if (i == j) {
-                    System.out.print("*");
+                    System.out.print("* ");
                 } else {
                     // In allen anderen Iterationen der inneren Schleife
                     // wird ein Leerzeichen ausgegeben.
-                    System.out.print(" ");
+                    System.out.print(". ");
                 }
             }
 

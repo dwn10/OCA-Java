@@ -1,57 +1,51 @@
 package aufgaben_basic.Nov;
 
+/* Aufgabe: Primzahlen finden
+Schreibe eine Methode, die alle Primzahlen bis zu einer gegebenen Grenze ausgibt.  */
+
 import java.util.ArrayList;
-import java.util.List;
 
-//  Aufgabe: Primzahl zwischen zwei Zahlen 
-// Schreibe eine Methode, die alle Primzahlen zwischen zwei gegebenen Zahlen
-//zurückgibt. Rufe diese Methode aus der main-Methode auf und gib die Primzahlen aus. 
+public class Primzahlen {
 
-// Klassendeklaration
-class Primzahlen {
+    public static void main(String[] args) {
+        int limit = 100;
 
-    // Methode zum Finden aller Primzahlen zwischen zwei gegebenen Zahlen
-    static List<Integer> findPrimzahlen(int start, int end) {
+        // Initialisiere die Liste der Primzahlen.
+        ArrayList<Integer> primes = new ArrayList<>();
 
-        // Liste zum Speichern der Primzahlen
-        List<Integer> primzahlen = new ArrayList<>();
-
-        // Für jede Zahl von start bis end
-        for (int i = start; i <= end; i++) {
-
-            // Prüfen, ob i eine Primzahl ist
-            boolean istPrimzahl = true;
-            for (int j = 2; j < i; j++) {
-                if (i % j == 0) {
-                    istPrimzahl = false;
-                    break;
-                }
-            }
-
-            // Wenn i eine Primzahl ist, dann zur Liste hinzufügen
-            if (istPrimzahl) {
-                primzahlen.add(i);
+        // Gehe von 2 bis zur Grenze.
+        for (int i = 2; i <= limit; i++) {
+            // Prüfe, ob i eine Primzahl ist.
+            if (istPrimzahl(i)) {
+                // Wenn i eine Primzahl ist, dann füge sie der Liste hinzu.
+                primes.add(i);
             }
         }
 
-        // Liste zurückgeben
-        return primzahlen;
+        // Gib die Liste der Primzahlen aus.
+        System.out.println("Die Primzahlen bis " + limit + " sind:");
+        for (int prime : primes) {
+            System.out.println(prime);
+        }
     }
 
-    // Hauptmethode
-    public static void main(String[] args) {
-
-        // Start- und Endwert der Zahlen
-        int start = 2;
-        int end = 100;
-
-        // Liste der Primzahlen
-        List<Integer> primzahlen = findPrimzahlen(start, end);
-
-        // Ausgabe der Primzahlen
-        System.out.println("Die Primzahlen zwischen " + start + " und " + end + " sind:");
-        for (int primzahl : primzahlen) {
-            System.out.println(primzahl);
+    // Methode zum Prüfen, ob eine Zahl eine Primzahl ist.
+    private static boolean istPrimzahl(int n) {
+        // Wenn n kleiner oder gleich 1 ist, dann ist sie keine Primzahl.
+        if (n <= 1) {
+            return false;
         }
+
+        // Prüfe, ob n durch eine Zahl von 2 bis zur Quadratwurzel von n teilbar ist.
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                // Wenn n durch eine Zahl teilbar ist, dann ist sie keine Primzahl.
+                return false;
+            }
+        }
+
+        // Wenn n keine der vorhergehenden Bedingungen erfüllt, dann ist sie eine
+        // Primzahl.
+        return true;
     }
 }

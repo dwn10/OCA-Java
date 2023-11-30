@@ -2,18 +2,18 @@ package aufgaben_advanced.Sterne;
 
 /* Sternbilder mit for-Schleifen
 Der Java-Code mit Kommentare, für die Eingabe:
-import java.util.Scanner;
-public class Sterne {
- public static void main(String[] args) {
- Scanner input = new Scanner(System.in);
- System.out.println("-- Sternbilder --");
- System.out.println("bitte Ganzzahl eingeben: ");
- int zahl = input.nextInt();
-…
-Vervollständigen Sie den Code, damit folgende Ausgaben entstehen:
--- Sternbilder --
+
+
 bitte Ganzzahl eingeben:
 7  */
+
+/*  * * * * * * *
+    * * * * * * *
+    * * * * * * *
+    * * * * * * *
+    * * * * * * *
+    * * * * * * *
+    * * * * * * *  */
 
 import java.util.Scanner;
 
