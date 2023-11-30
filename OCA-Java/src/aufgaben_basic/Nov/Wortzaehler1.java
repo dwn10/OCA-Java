@@ -17,10 +17,10 @@ public class Wortzaehler1 {
         String satz = scanner.nextLine();
 
         // Initialisiere die Variable zur Speicherung der Anzahl der Wörter.
-        int wortanzahl = 0;
+        int wortanzahl = 1;
 
         // Gehe von der ersten Position des Satzes bis zum Ende des Satzes.
-        for (int i = 0; i < satz.length(); i++) {
+        for (int i = 1; i < satz.length(); i++) {
             // Wenn das aktuelle Zeichen ein Leerzeichen ist, dann ist das Ende eines Wortes
             // erreicht.
             if (satz.charAt(i) == ' ') {
