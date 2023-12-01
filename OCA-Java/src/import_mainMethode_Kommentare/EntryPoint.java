@@ -45,10 +45,10 @@ public class EntryPoint {
 
 	/**
 	 * Diese Methode dient dem Print von doStuff
-	 * 
+	 *
 	 * @author darwin
 	 * @param int x
-	 * 
+	 *
 	 */
 	public static void doStuff(int x) {
 		System.out.println("Print from DoStuff");
