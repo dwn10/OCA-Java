@@ -24,7 +24,7 @@ import java.sql.DriverManager;
 public class EntryPoint {
 	/**
 	 * Doku Kommentare sind in der IDE auch als Erläuterung Verfügbar
-	 * 
+	 *
 	 * @param args => Dies sind die Übergabe werte für Methoden oder Funkltionen
 	 *             welche in derjenigen zur Verfügung gestellt werden müssen
 	 */

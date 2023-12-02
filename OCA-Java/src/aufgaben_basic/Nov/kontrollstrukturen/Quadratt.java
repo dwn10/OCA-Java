@@ -1,4 +1,4 @@
-package kontrollstrukturen;
+package aufgaben_basic.Nov.kontrollstrukturen;
 
 public class Quadratt {
 

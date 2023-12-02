@@ -15,7 +15,7 @@ public class PigLatin {
         Scanner scanner = new Scanner(System.in);
 
         // Benutzer nach einem Wort fragen
-        System.out.println("\n**************************************");
+        System.out.println("**************************************");
         System.out.println("\nGeben Sie ein Wort ein: ");
         String wort = scanner.next();
 
@@ -24,7 +24,7 @@ public class PigLatin {
 
         // Wort ausgeben
         System.out.println("**************************************");
-        System.out.println("\nDas Wort in Pig Latin lautet: " + wort);
+        System.out.println("Das Wort in Pig Latin lautet: " + wort);
         System.out.println("**************************************");
     }
 }
