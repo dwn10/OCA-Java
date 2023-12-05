@@ -35,7 +35,7 @@ public class Lorem_Text {
         System.out.println("*************************");
         System.out.println("Die Gesamtzahl der Wörter beträgt: " + wortzaehlung);
         System.out.println("\n*************************");
-        System.out.println("Die Anzahl der Wörter, die " + " enthalten, beträgt: "
+        System.out.println("Die Anzahl der Lorem-Wörter beträgt: "
                 + zaehleLoremWoerter(text, lorem));
     }
 
