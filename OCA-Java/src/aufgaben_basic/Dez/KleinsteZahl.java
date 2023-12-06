@@ -27,8 +27,10 @@ public class KleinsteZahl {
         System.out.println("\n***************************");
         System.out.println("Geben Sie die erste Zahl ein:");
         zahl1 = scanner.nextInt();
+
         System.out.println("\nGeben Sie die zweite Zahl ein:");
         zahl2 = scanner.nextInt();
+
         System.out.println("\nGeben Sie die dritte Zahl ein:");
         zahl3 = scanner.nextInt();
 
