@@ -1,4 +1,4 @@
-package aufgaben_basic.Dez.Array;
+package aufgaben_basic.Dez.Schleifen_Verzweigungen_Array;
 
 /* Aufgabe: Array-Summe:
 Schreibe eine Methode, die die Summe aller Elemente in einem Array von Ganzzahlen berechnet.  */

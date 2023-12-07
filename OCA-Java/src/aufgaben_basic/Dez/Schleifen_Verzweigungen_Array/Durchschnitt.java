@@ -1,4 +1,4 @@
-package aufgaben_basic.Dez.Array;
+package aufgaben_basic.Dez.Schleifen_Verzweigungen_Array;
 
 /* Aufgabe: Durchschnitt berechnen:
 Schreibe eine Methode, um den Durchschnitt aller Zahlen in einem Array zu berechnen.

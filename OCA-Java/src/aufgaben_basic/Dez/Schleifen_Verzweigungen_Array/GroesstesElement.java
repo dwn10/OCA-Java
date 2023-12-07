@@ -1,4 +1,4 @@
-package aufgaben_basic.Dez.Array;
+package aufgaben_basic.Dez.Schleifen_Verzweigungen_Array;
 
 /*  Aufgabe: Größtes Element:
     Entwickle eine Funktion, die das größte Element in einem Integer-Array findet.

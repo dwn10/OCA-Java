@@ -1,4 +1,4 @@
-package aufgaben_basic.Dez.Array;
+package aufgaben_basic.Dez.Schleifen_Verzweigungen_Array;
 
 /* Aufgabe: Duplikate entfernen:
 Entwickle eine Methode, die alle Duplikate in einem Array entfernt
