@@ -1,4 +1,4 @@
-package aufgaben_basic.Dez.Schleifen_Verzweigungen_Array;
+package aufgaben_basic.Dez.Array;
 
 /* Aufgabe: Array-Umdrehung:
 Drehe die Reihenfolge der Elemente in einem Array um, ohne zusätzliches Array zu verwenden.
