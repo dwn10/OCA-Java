@@ -1,4 +1,4 @@
-package aufgaben_basic.Dez.Schleifen_Verzweigungen_Array;
+package aufgaben_basic.Dez.Array;
 
 import java.util.ArrayList;
 
