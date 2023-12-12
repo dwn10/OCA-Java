@@ -76,21 +76,21 @@ public class Person {
         // Prüfe die Eingaben auf Korrektheit.
         while (!email.contains("@")) {
             System.out.println("Die E-Mail-Adresse muss ein @-Zeichen enthalten.");
-            System.out.println("********************************");
+
             System.out.println("Geben Sie Ihre E-Mail-Adresse erneut ein:");
             email = scanner.nextLine();
         }
 
         while (name.matches(".*\\d.*")) {
             System.out.println("Der Name darf keine Zahlen enthalten.");
-            System.out.println("********************************");
+
             System.out.println("Geben Sie Ihren Namen erneut ein:");
             name = scanner.nextLine();
         }
 
         while (alter < 0) {
             System.out.println("Das Alter muss eine positive Ganzzahl sein.");
-            System.out.println("********************************");
+
             System.out.println("Geben Sie Ihr Alter erneut ein:");
             alter = scanner.nextInt();
         }
