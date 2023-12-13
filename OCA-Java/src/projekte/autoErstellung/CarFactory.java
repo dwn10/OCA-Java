@@ -33,7 +33,7 @@ public class CarFactory {
             System.out.println("3. 3 Series");
         }
 
-        // Read the user's choice of model
+        // Read the user's choice of model1
         int model = scanner.nextInt();
 
         // Display the list of available options
