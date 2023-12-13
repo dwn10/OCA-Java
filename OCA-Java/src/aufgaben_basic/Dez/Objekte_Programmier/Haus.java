@@ -1,58 +1,68 @@
 package aufgaben_basic.Dez.Objekte_Programmier;
 
 public class Haus {
-    private String eigenschaft1;
-    private String eigenschaft2;
-    private String eigenschaft3;
-    private static final String FLACHDACH = "Flachdach";
-    private static final String SCHRÄGDACH = "Schrägdach";
-    private static final String GIEBELDACH = "Giebeldach";
 
-    public Haus() {
-        this.eigenschaft1 = "default1";
-        this.eigenschaft2 = "default2";
-        this.eigenschaft3 = "default3";
+    // Konstanten für die Dacharten
+    public static final String DACHART_FLACH = "Flachdach";
+    public static final String DACHART_SCHRÄGDACH = "Schrägdach";
+    public static final String DACHART_GIEBELDACH = "Giebeldach";
+
+    // Standardwert für die Anzahl der Stockwerke
+    private static final int STANDARD_STOCKWERKE = 1;
+
+    // Standardwert für die Anzahl der Zimmer
+    private static final int STANDARD_ZIMMER = 5;
+
+    // Eigenschaft für die Dachart
+    private String dachart;
+
+    // Eigenschaft für die Anzahl der Stockwerke
+    private int stockwerke;
+
+    // Eigenschaft für die Anzahl der Zimmer
+    private int zimmer;
+
+    // Konstruktor
+    public Haus(String dachart, int stockwerke, int zimmer) {
+        this.dachart = dachart;
+        this.stockwerke = stockwerke;
+        this.zimmer = zimmer;
     }
 
-    public Haus(String eigenschaft1, String eigenschaft2, String eigenschaft3) {
-        this.eigenschaft1 = eigenschaft1;
-        this.eigenschaft2 = eigenschaft2;
-        this.eigenschaft3 = eigenschaft3;
+    // Getter für die Dachart
+    public String getDachart() {
+        return dachart;
     }
 
-    public String getEigenschaft1() {
-        return eigenschaft1;
+    // Setter für die Dachart
+    public void setDachart(String dachart) {
+        this.dachart = dachart;
     }
 
-    public void setEigenschaft1(String eigenschaft1) {
-        this.eigenschaft1 = eigenschaft1;
+    // Getter für die Anzahl der Stockwerke
+    public int getStockwerke() {
+        return stockwerke;
     }
 
-    public String getEigenschaft2() {
-        return eigenschaft2;
+    // Setter für die Anzahl der Stockwerke
+    public void setStockwerke(int stockwerke) {
+        this.stockwerke = stockwerke;
     }
 
-    public void setEigenschaft2(String eigenschaft2) {
-        this.eigenschaft2 = eigenschaft2;
+    // Getter für die Anzahl der Zimmer
+    public int getZimmer() {
+        return zimmer;
     }
 
-    public String getEigenschaft3() {
-        return eigenschaft3;
+    // Setter für die Anzahl der Zimmer
+    public void setZimmer(int zimmer) {
+        this.zimmer = zimmer;
     }
 
-    public void setEigenschaft3(String eigenschaft3) {
-        this.eigenschaft3 = eigenschaft3;
-    }
-
-    public static String getFlachdach() {
-        return FLACHDACH;
-    }
-
-    public static String getSchrägdach() {
-        return SCHRÄGDACH;
-    }
-
-    public static String getGiebeldach() {
-        return GIEBELDACH;
+    // Methode zum Ausgeben der Eigenschaften des Hauses
+    public void ausgabe() {
+        System.out.println("Dachart: " + dachart);
+        System.out.println("Anzahl der Stockwerke: " + stockwerke);
+        System.out.println("Anzahl der Zimmer: " + zimmer);
     }
 }
