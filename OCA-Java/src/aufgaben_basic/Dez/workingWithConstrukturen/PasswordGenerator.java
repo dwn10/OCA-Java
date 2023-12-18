@@ -1,55 +1,26 @@
-package aufgaben_basic.Dez.workingWithConstrukturen;
+package workingWithConstrukturen;
 
-/* Aufgabe: Passwortgenerator
-
-Erstelle eine Klasse namens PasswordGenerator, die eine
-Passwortgenerierungsfunktion implementiert. Das Passwort soll aus einer
-Kombination von Buchstaben, Zahlen und Symbole bestehen.
-
-1. Die Klasse PasswordGenerator soll folgende Funktionalitäten haben:
-Einen Konstruktor, der ein Passwort mit einer festgelegten Länge generiert.
-Eine Methode generatePassword(), die das generierte Passwort zurückgibt.
-
-2. Implementiere die Methode generatePassword():
-Das Passwort soll aus einer zufälligen Kombination von Buchstaben
-(Groß- und Kleinbuchstaben) und Zahlen bestehen.
-Die Länge des Passworts wird im Konstruktor festgelegt
-und soll nicht veränderbar sein.
-Verwende die StringBuilder-Klasse, um das Passwort zusammenzusetzen.  */
+import java.util.Random;
 
 public class PasswordGenerator {
 
-    // Konstanten für die Zeichen, aus denen das Passwort bestehen soll
-    private static final String ZEICHEN = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+[]{}<>,.?/";
+    // Hauptmethode
+    public static void main(String[] args) {
 
-    // Länge des Passworts
-    private int laenge;
+        // Zufallszahlengenerator erstellen
+        Random random = new Random();
 
-    // Konstruktor
-    public PasswordGenerator(int laenge) {
-        this.laenge = laenge;
-    }
+        // Zeichensatz erstellen
+        String zeichensatz = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-_=+";
 
-    // Methode zum Generieren des Passworts
-    public String generatePassword() {
-
-        // StringBuilder zum Zusammensetzen des Passworts
-        StringBuilder passwort = new StringBuilder();
-
-        // Zufallszahl für das nächste Zeichen
-        int zufallszahl;
-
-        // Passwort generieren
-        for (int i = 0; i < laenge; i++) {
-
-            // Zufallszahl zwischen 0 und der Länge des Zeichensatzes
-            zufallszahl = (int) (Math.random() * ZEICHEN.length());
-
-            // Zeichen aus dem Zeichensatz hinzufügen
-            passwort.append(ZEICHEN.charAt(zufallszahl));
+        // 12-stelliges Kennwort erstellen
+        String kennwort = "";
+        for (int i = 0; i < 12; i++) {
+            kennwort += zeichensatz.charAt(random.nextInt(zeichensatz.length()));
         }
 
-        // Passwort zurückgeben
-        return passwort.toString();
+        // Kennwort ausgeben
+        System.out.println("\n***************************************");
+        System.out.println("Das generierte Kennwort lautet: " + kennwort);
     }
 }
