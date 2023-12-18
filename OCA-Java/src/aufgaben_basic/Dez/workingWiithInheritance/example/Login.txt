@@ -1,0 +1,44 @@
+Anforderung => Login für Memeber oder Registrieren für User
+=> Login über Email und Passwort
+
+Workflow
+	=> Browser öffnen(Konsole) direkt Passwort und Email + Registrierung ermöglichen(- Aufforderung der Eingabe zum Login)
+		- Immer eingabe Passwort Email => danach die Entscheidung Login oder Registrieren
+			- maximal Versuche definieren => bei erster Falscher Eingabe Hinweis auf verbleibende Versuche
+				- Passwort Format definieren => mitteilen des Formates an den User
+				- Email Format definieren => mitteilen des Formates an den User
+				- Fehlermeldungen ausgeben => Format Passwort | Format Email
+					- Bei richtig Format aber nicht vorhanden nachfrage Registrieren Ja Nein 
+						=> bei Nein zurücksetten der Eingab mit Hinweis Email oder Passwort oder Kombi nicht existent
+						=> bei Ja Registrieren
+							- bestätigung der Registrierung
+					- Timer welcher die weiter Eingabe verhindert
+			- abgleich mit der Speicherstruktur(Mengenspeicher)	
+	Strukturen => MVC => Model => User => email passwort
+							   => Datenhaltung => Mengenspeicher (dynamisch, static, User)  HashMap<String, User> userMap = new HashMap<>(); 	
+						 View  => Konsole => Interaktion mit dem User
+							- Korrkete Fehermeldungen bei Falsch Eingabe	
+						 Controller => Validierung der Eingaben
+							- Email => Format => muss @ enthalten (Zeichenkette@Zeichenkett.Zeichenkette) | Enum mit Domänen (Update des Enum wenn änderungen bei Domänen)
+							- Passwort => Format => 8 Zeichen lang | 1 Großbuchstaben | 1 Zahl
+							- Validierung => auf Email und Passwort seperat
+								- Email => 
+							- Registrierung existiert oder nicht
+							- weiterleitung zur Hauptseite
+							- redirect auf Login bei Logout
+	=> Weiterleitung auf die Hauptseite
+		- Kommunikation mit dem User => Login oder Registrierung erfolgreich
+	=> Logout => Weiterleitung Startseite
+		bereitstellen der Logout Funktion => redirect auf Login
+
+- Regestieren mit Email und Passwort#
+- Aufforderung der Eingabe zum Login#
+- maximal Versuche definieren => 3#
+	(=> Passwort ändern (Passwort vergessen))
+	=> was soll passieren wenn die Überschritten wird#
+	=> abgleich über Liste => 2 Listen => HashMap | 2 Dim Array#
+- abgleich mit Passwort Email
+- Passwort Format defineren #
+- Fehlermeldungen ausgeben => wie soll darauf reagiert werden#
+- soll es wiederholt werden#
+- bestätigung der Registrierung#
