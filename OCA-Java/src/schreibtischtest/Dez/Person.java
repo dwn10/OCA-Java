@@ -1,4 +1,4 @@
-package schreibtischtest;
+package schreibtischtest.Dez;
 
 /* Erstelle ein Programm, welches den User nach E-Mail-Adresse, Name und Alter
  fragt. Diese eingaben sollen auf Korrektheit geprüft werden.
