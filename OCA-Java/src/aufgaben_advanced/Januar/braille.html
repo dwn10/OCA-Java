@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braille Code Translator</title>
+    <style>
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #output {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Braille Code Translator</h1>
+
+    <form id="translationForm">
+        <label for="inputText">Enter your text:</label>
+        <textarea id="inputText" type="text" rows="5" cols="40"></textarea>
+
+        <button type="button" onclick="translateText()">Translate</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script>
+        function translateText() {
+            const inputText = document.getElementById('inputText').value.toLowerCase();
+            const brailleCode = [];
+
+            for (let i = 0; i < inputText.length; i++) {
+                const char = inputText[i];
+                if (char === ' ') {
+                    brailleCode.push(' ');
+                } else if (char >= '0' && char <= '9') {
+                    brailleCode.push(nummer_0_9[char - '0'] + ' ');
+                } else if (char >= 'a' && char <= 'z') {
+                    const index = char - 'a';
+                    if (index >= 0 && index < 26) {
+                        brailleCode.push(brailleABC[index] + ' ');
+                    }
+                }
+            }
+
+            const translatedText = brailleCode.join('');
+            document.getElementById('output').textContent = translatedText;
+        }
+    </script>
+</body>
+</html>
