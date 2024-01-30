@@ -1,0 +1,60 @@
+//	    1. Erstelle eine Integer-Wrapper-Klasse mit dem Wert 42.
+
+
+	    2. Konvertiere einen Integer-Wert in einen String.
+
+		
+	    3. Überprüfe, ob ein Double-Wert NaN (Not a Number) ist.
+
+
+	    4. Erzeuge einen Long-Wert durch das Parsen eines Strings.
+
+
+	    5. Multipliziere zwei Float-Werte mithilfe der Wrapper-Klassen.
+
+
+	    6. Überprüfe, ob ein Boolean-Wert "true" ist.
+
+
+	    7. Addiere zwei Integer-Werte mithilfe der Wrapper-Klassen.
+
+
+	    8. Erstelle eine Character-Wrapper-Klasse mit dem Buchstaben 'A'.
+
+
+	    9. Konvertiere einen String in einen Double-Wert.
+
+
+	    10.Überprüfe, ob ein Boolean-Wert "false" ist.
+
+
+	    11.Addiere zwei Double-Werte mithilfe der Wrapper-Klassen.
+
+
+	    12.Erstelle eine Boolean-Wrapper-Klasse mit dem Wert "false".
+
+
+	    13.Konvertiere einen Integer-Wert in einen Binary-String.
+
+
+	    14.Überprüfe, ob ein Character-Wert ein Buchstabe ist.
+
+
+	    15.Subtrahiere zwei Long-Werte mithilfe der Wrapper-Klassen.
+
+
+	    16.Erstelle eine Float-Wrapper-Klasse mit dem Wert 3.14.
+
+
+	    17.Konvertiere einen String in einen Integer-Wert.
+
+
+        18.Überprüfe, ob ein Float-Wert eine ganze Zahl ist.
+
+
+	    19.Multipliziere zwei Long-Werte mithilfe der Wrapper-Klassen.
+
+
+        20.Erstelle eine Short-Wrapper-Klasse mit dem Wert 1000.
+
+		

@@ -1,0 +1,62 @@
+
+
+	
+		
+   1. Erstelle einen String mit dem Inhalt "Hello, World!" erledigt.
+		
+
+   2. Zähle die Anzahl der Zeichen im oben genannten String.
+		
+
+   3. Konvertiere den String in Kleinbuchstaben.
+		
+
+	   4. Überprüfe, ob der String "Hello" im oben genannten String vorhanden ist.
+		
+
+	   5. Extrahiere die Zeichen von Index 7 bis 12 aus dem String.
+		
+
+	   6. Ersetze das Wort "World" durch "Java" im oben genannten String.
+	
+
+	   7. Entferne alle Leerzeichen am Anfang und Ende des Strings " Java Programming ".
+		
+
+	   8. Überprüfe, ob der String mit "Hello" beginnt.
+		
+
+	   9. Teile den String "Java,Programming,is,Fun" in ein String-Array mit den einzelnen Wörtern.
+	
+
+	   10. Überprüfe, ob der String "Java" gleich dem String "java" ist (ohne Berücksichtigung der Groß- und Kleinschreibung).
+		
+
+	   11. Ersetze alle Vokale im String "Programming" durch den Buchstaben 'X'.
+		
+
+        12. Konvertiere den String "123" in eine Integer-Zahl.
+		
+
+	   13. Finde den Index des ersten Auftretens des Buchstabens 'a' im String "Java Programming".
+		
+
+	   14. Überprüfe, ob der String nur aus Zahlen besteht.
+		
+
+	   15. Konkateniere die Strings "Java" und "Programming".
+		
+
+	   16. Überprüfe, ob der String leer ist.
+		
+
+	   17. Entferne alle Vorkommen des Buchstabens 'o' im String "Hello, World!".
+		
+	   18. Erstelle einen neuen String durch Verketten von Teilen des Strings "Java Programming" (z.B., die ersten 5 Zeichen und die letzten 5 Zeichen).
+		
+
+	   19. Extrahiere die ersten 3 Zeichen aus dem String "abcdef".
+		
+
+	   20. Erzeuge einen zufälligen String der Länge 8.
+		
