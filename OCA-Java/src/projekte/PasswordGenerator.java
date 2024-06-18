@@ -1,4 +1,4 @@
-package schreibtischtest.Dez;
+package projekte;
 
 import java.util.Random;
 
@@ -26,6 +26,7 @@ public class PasswordGenerator {
 	public String genPassword() {
 
 		Random rnd = new Random();
+		System.out.println("\n*****************");
 		String password = "";
 
 		for (int i = 0; i < this.length; i++) {

@@ -13,6 +13,7 @@ public class LogIn {
 		Scanner sc = new Scanner(System.in);
 
 		do {
+			System.out.println("\n***************************************");
 			System.out.println("Bitte geben sie ihren 4 Stelligen Pin ein");
 			String pinAsString = sc.nextLine();
 			pinAsString = pinAsString.trim();

@@ -15,7 +15,7 @@ public class LogIn2 {
 		boolean stateSumOfTrys = false;
 
 		do {
-			System.out.println("Bitte geben Sie ihren Pin ein");
+			System.out.println("\nBitte geben Sie ihren Pin ein:");
 			String userInput = sc.nextLine();
 
 			String regex = "(\\d\\d\\d\\d)";

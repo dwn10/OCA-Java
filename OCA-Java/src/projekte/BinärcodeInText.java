@@ -6,6 +6,7 @@ public class BinärcodeInText {
   public static void main(String[] args) {
 
     // Binärcode eingeben
+    System.out.println("\n***********************************************");
     System.out.println("\nGeben Sie einen Buchstaben im Binärformat ein: ");
     String binärcode = System.console().readLine();
 
@@ -20,3 +21,6 @@ public class BinärcodeInText {
     System.out.println("\nDer Buchstabe lautet: " + text);
   }
 }
+
+// A: 01000001
+// B: 01000010
