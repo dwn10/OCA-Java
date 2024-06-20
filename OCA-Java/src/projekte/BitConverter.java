@@ -1,3 +1,20 @@
+/* Das Java-Programm dient zur Erkennung von Datentypen und zur Anzeige der Anzahl der Bits,
+die sie belegen. Es verwendet reguläre Ausdrücke (Regex),
+um den eingegebenen Wert mit Mustern für verschiedene Typen wie Alpha (String),
+Integer, Dezimalzahl (Double), Float, Datum (JJJJ-MM-TT) und Zeit (HH:mm:ss) abzugleichen.
+
+Wenn eine Übereinstimmung gefunden wird, gibt das Programm den erkannten Datentyp aus,
+sowie die Anzahl der Bits, die er belegt. Bei Datums- und Zeitwerten werden die entsprechenden
+Formate LocalDate und LocalTime verwendet, und das Programm gibt den analysierten Wert aus.
+Für diese Typen ist die Anzahl der Bits variabel und abhängig von der Implementierung, daher wird "N/A" ausgegeben.
+
+Das Programm fragt den Benutzer nach jeder Eingabe, ob er fortfahren möchte,
+und beendet sich, wenn die Antwort nicht "y" (Ja) ist.
+
+Der Code beinhaltet auch eine Fehlerbehandlung für ungültige Datums- und Zeitformate,
+und eine allgemeine Meldung für nicht erkannte Datentypen.
+ */
+
 package projekte;
 
 import java.time.LocalDate;
