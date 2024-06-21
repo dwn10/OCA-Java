@@ -20,7 +20,23 @@ Ausgabe: Das Programm gibt die Ergebnisse übersichtlich aus, einschließlich:
 -Jahre, Monate und Tage des Unterschieds
 -Gesamtstunden des Unterschieds (auf zwei Dezimalstellen gerundet)
 -Wochentag des eingegebenen Datums
--Ob das eingegebene Jahr ein Schaltjahr war oder nicht """
+-Ob das eingegebene Jahr ein Schaltjahr war oder nicht
+
+****************************************
+Beispiel:
+****************************************
+Enter a date (YYYY-MM-DD): 1492-10-12
+
+Time difference between 1492-10-12 and 2024-06-21:
+Years: 531
+Months: 8
+Days: 9
+Total Hours: 4660704.00
+
+Day of the week: Wednesday
+Was a leap year: True
+****************************************
+"""
 
 
 
